@@ -24,5 +24,7 @@ int main()
     p2.set_user_rating(2);
 
     printf("p1 comparat p2 %d", compare_stars(p1, p2));
+
+    Demo d = { 1,2,3 };
     return 0;
 }

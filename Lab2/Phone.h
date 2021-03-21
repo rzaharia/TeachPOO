@@ -16,6 +16,12 @@ public:
     float get_user_rating() const;
     void set_user_rating(float user_rating);
 
-    float get_average_price();
+    float get_average_price() const;
 };
 
+class Demo
+{
+    int x, y, z;
+public:
+    Demo(int x, int y, int z);
+};

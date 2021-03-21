@@ -12,9 +12,9 @@ void Phone::set_name(char* name)
     strcpy(this->name, name);
 }
 
-float Phone::get_stars() const
+float Phone::get_stars()const
 {
-    return stars;
+    return this->stars;
 }
 
 void Phone::set_stars(float stars)
@@ -43,7 +43,7 @@ void Phone::set_user_rating(float user_rating)
     this->user_rating = user_rating;
 }
 
-float Phone::get_average_price()
+float Phone::get_average_price()const
 {
     return price / stars;
 }
