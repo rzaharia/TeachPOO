@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
     int l2_ids[] = { 3356,2213,5723,1246,12573,6424,85573,2235113,2241 };
     MyLibrary l2 = { cout ,9,l2_ids };
     l2.print_books();//Ar trebui sa printeaze "Found 9 books"
-    
+
     //Cand decomentati codul de aici va incepe sa crape, dar de ce?, urmari secvential ce se intampla dupa ce implementati
     MyLibrary l2_copy = l2;
     cout << "Before update" << endl;
